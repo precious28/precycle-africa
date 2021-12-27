@@ -1,7 +1,9 @@
+import HomeLayoutWrapper from "../components/Layouts/HomeLayoutWrapper";
+
 export default function AboutUs() {
   return (
-    <h1>
-      About Page
-    </h1>
+    <HomeLayoutWrapper>
+      <h1>About Page</h1>
+    </HomeLayoutWrapper>
   )
 }

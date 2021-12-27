@@ -1,7 +1,11 @@
+import HomeLayoutWrapper from "../components/Layouts/HomeLayoutWrapper";
+
 export default function Partners() {
   return (
-    <h1>
-      Partners Page
-    </h1>
+    <HomeLayoutWrapper>
+      <h1>
+        Partners Page
+      </h1>
+    </HomeLayoutWrapper>
   )
 }
