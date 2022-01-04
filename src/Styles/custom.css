@@ -1,0 +1,78 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.accentWhite {
+  color: #fefaf0;
+}
+.customSize {
+  font-size: 40px;
+}
+.myPrimary {
+  background-color: #01957d;
+}
+.primaryText {
+  color: #01957d;
+}
+.mySecondary {
+  color: #f0a501;
+}
+.blackText {
+  color: #191919;
+}
+.customBackground {
+  background-color: #fefaf0;
+}
+.partnerBtn {
+  background-color: #fefaf0;
+  color: #01957d;
+  border: 1px solid #01957d;
+}
+.partnerBtn:hover {
+  background-color: #01957d !important;
+  color: #fefaf0 !important;
+  border: none;
+}
+.pickupBtn {
+  background-color: #01957d;
+  border: none;
+  color: #fefaf0;
+}
+.pickupBtn:hover {
+  background-color: #01957d !important;
+  opacity: 70%;
+}
+.trainingBtn {
+  background-color: #fefaf0 !important;
+  border: 1px solid #01957d !important;
+  color: #01957d !important;
+  display: block !important;
+  width: auto !important;
+}
+.trainingBtn:hover {
+  background-color: #01957d !important;
+  color: #fefaf0 !important;
+  opacity: 70%;
+}
+.heroHeight {
+  min-height: 80vh;
+}
+.heroContainer {
+  min-height: 100vh;
+}
+.customHeight {
+  min-height: 30vh;
+}
+.imageHeight {
+  object-fit: contain;
+  width: 100%;
+  height: 150px;
+}
+.mainImage {
+  height: auto;
+  max-width: 100%;
+}
+.sdgImage {
+  height: auto;
+  max-width: 100%;
+}

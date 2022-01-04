@@ -1,0 +1,20 @@
+.bg-myPrimary {
+  background-color: #01957d;
+}
+.bg-mySecondary {
+  background-color: #f0a501;
+}
+.accentWhite {
+  color: #fefaf0;
+}
+
+.pickupBtn {
+  background-color: #01957d;
+  border: none;
+  color: #fefaf0;
+}
+.partnerBtn {
+  background-color: #fefaf0;
+  color: #01957d;
+  border: 1px solid #01957d;
+}

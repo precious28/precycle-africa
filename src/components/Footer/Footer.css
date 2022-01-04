@@ -1,0 +1,52 @@
+.bg-divHeight {
+  color: #01957d;
+}
+
+.footerColor {
+  background-color: #f0a501;
+}
+.accentWhite {
+  color: #fefaf0;
+}
+.customBackground {
+  background-color: #fefaf0;
+}
+.custom-group {
+  position: relative;
+}
+.custom-group-text {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  outline: none;
+}
+.custom-group-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 10px 100px 10px 20px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+}
+.form-control::placeholder {
+  /* margin-left: 20px; */
+  padding: 10px;
+}
+.custom-group Button {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  bottom: 3px;
+  border: 0;
+  background: #d1095e;
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 100px;
+  z-index: 2;
+}
+.custom-group Button:hover {
+  background-color: initial;
+}
