@@ -8,45 +8,39 @@
 .accentWhite {
   color: #fefaf0;
 }
+.greyText {
+  color: #858786;
+}
 .customBackground {
   background-color: #fefaf0;
+}
+.contactIcons img {
+  margin-right: 25px;
 }
 .custom-group {
   position: relative;
 }
 .custom-group-text {
   position: relative;
-  top: 30px;
-  left: 10px;
-  outline: none;
+  top: 33px;
+  left: 6px;
 }
 .custom-group-input {
   width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 100px;
-  padding: 10px 100px 10px 20px;
-  line-height: 1;
-  box-sizing: border-box;
-  outline: none;
 }
-.form-control::placeholder {
-  /* margin-left: 20px; */
-  padding: 10px;
+.form-control {
+  border: none;
+  padding: 10px 100px 10px 30px;
 }
 .custom-group Button {
   position: absolute;
-  right: 10px;
-  top: 30px;
-  bottom: 3px;
-  border: 0;
-  background: #d1095e;
-  color: #fff;
-  outline: none;
-  margin: 0;
-  padding: 0 10px;
-  border-radius: 100px;
-  z-index: 2;
+  right: 6px;
+  top: 28px;
+  bottom: 10px;
+  background: #01957d;
+  border-radius: 5px;
 }
 .custom-group Button:hover {
-  background-color: initial;
+  background-color: #01957d;
+  opacity: 75%;
 }

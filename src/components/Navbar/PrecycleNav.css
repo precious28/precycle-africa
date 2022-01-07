@@ -7,14 +7,35 @@
 .accentWhite {
   color: #fefaf0;
 }
-
-.pickupBtn {
+#basic-navbar-nav {
+  margin-left: 50px;
+}
+.text-white.nav-link {
+  margin-left: 20px;
+}
+@media (max-width: 978px) {
+  #basic-navbar-nav {
+    margin-left: 0;
+  }
+  .text-white.nav-link {
+    margin-left: 0;
+  }
+}
+.wasteBtn {
   background-color: #01957d;
   border: none;
   color: #fefaf0;
+  width: 150px;
+}
+.wasteBtn:hover {
+  background-color: #fefef0;
+  color: #01957d;
 }
 .partnerBtn {
   background-color: #fefaf0;
   color: #01957d;
   border: 1px solid #01957d;
+}
+.partnerBtn:hover {
+  border: 1px solid transparent;
 }

@@ -5,9 +5,6 @@ body {
 .accentWhite {
   color: #fefaf0;
 }
-.customSize {
-  font-size: 40px;
-}
 .myPrimary {
   background-color: #01957d;
 }
@@ -23,6 +20,13 @@ body {
 .customBackground {
   background-color: #fefaf0;
 }
+.cardStyles {
+  border: none;
+  border-radius: 20px;
+}
+.shadow.cardStyles.card {
+  border-radius: 20px;
+}
 .partnerBtn {
   background-color: #fefaf0;
   color: #01957d;
@@ -35,8 +39,11 @@ body {
 }
 .pickupBtn {
   background-color: #01957d;
+  display: inline-block;
+  width: 200px;
   border: none;
   color: #fefaf0;
+  margin-left: 25px;
 }
 .pickupBtn:hover {
   background-color: #01957d !important;
@@ -46,8 +53,7 @@ body {
   background-color: #fefaf0 !important;
   border: 1px solid #01957d !important;
   color: #01957d !important;
-  display: block !important;
-  width: auto !important;
+  width: 200px !important;
 }
 .trainingBtn:hover {
   background-color: #01957d !important;
@@ -56,6 +62,8 @@ body {
 }
 .heroHeight {
   min-height: 80vh;
+  width: 100%;
+  overflow: hidden;
 }
 .heroContainer {
   min-height: 100vh;
@@ -66,7 +74,7 @@ body {
 .imageHeight {
   object-fit: contain;
   width: 100%;
-  height: 150px;
+  height: 130px;
 }
 .mainImage {
   height: auto;

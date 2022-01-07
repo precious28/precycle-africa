@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavbarModal from "../NavbarModal/NavbarModal";
 
-import { Container, Navbar, Nav, Button } from "react-bootstrap";
+import { Container, Navbar, Nav, Button, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../Navbar/PrecycleNav.css";
 
@@ -20,7 +20,7 @@ export default function PrecycleNav() {
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto fw-bold">
             <Nav.Link className="text-white" as={Link} to="home">
               Home
             </Nav.Link>
@@ -32,19 +32,19 @@ export default function PrecycleNav() {
             </Nav.Link>
           </Nav>
 
-          <div>
-            <Button className="partnerBtn p-2" size="md">
-              Partner with us
-            </Button>{" "}
+          <Stack direction="horizontal" gap={5}>
+            <Button className="partnerBtn p-3 fw-bold" size="sm">
+              Partner with Us
+            </Button>
             <Button
-              className="pickupBtn p-2"
-              size="md"
+              className="wasteBtn p-3 fw-bold"
+              size="sm"
               onClick={() => setModalShow(true)}
             >
-              Waste pickup
+              Waste Pickup
             </Button>
             <NavbarModal show={modalShow} onHide={() => setModalShow(false)} />
-          </div>
+          </Stack>
         </Navbar.Collapse>
       </Container>
     </Navbar>
