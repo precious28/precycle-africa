@@ -1,5 +1,7 @@
 import HomeLayoutWrapper from "../components/Layouts/HomeLayoutWrapper";
+import { Link } from "react-router-dom";
 import {
+  Nav,
   Container,
   Card,
   CardGroup,
@@ -209,12 +211,15 @@ export default function Home() {
                     Join other Precycle volunteers all over Africa in fighting
                     climate change and making our environment cleaner than ever.
                   </div>
-                  <Button
-                    className="pickupBtn fw-bold p-2 col-5 mt-2"
-                    size="sm"
-                  >
-                    Become a Volunteer
-                  </Button>
+
+                  <Nav.Link as={Link} to="/volunteers">
+                    <Button
+                      className="pickupBtn fw-bold p-2 col-5 mt-2"
+                      size="sm"
+                    >
+                      Become a Volunteer
+                    </Button>
+                  </Nav.Link>
                 </Stack>
               </Col>
             </Row>

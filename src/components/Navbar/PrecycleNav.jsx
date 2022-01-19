@@ -33,9 +33,12 @@ export default function PrecycleNav() {
           </Nav>
 
           <Stack direction="horizontal" gap={5}>
-            <Button className="partnerBtn p-3 fw-bold" size="sm">
-              Partner with Us
-            </Button>
+            <Nav.Link className="text-white" as={Link} to="/partners">
+              <Button className="partnerBtn p-3 fw-bold" size="sm">
+                Partner with Us
+              </Button>
+            </Nav.Link>
+
             <Button
               className="wasteBtn p-3 fw-bold"
               size="sm"

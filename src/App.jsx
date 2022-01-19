@@ -4,6 +4,8 @@ import "../src/styles/custom.css";
 import AboutUs from "./screens/about-us";
 import ContactUs from "./screens/contact-us";
 import Home from "./screens/home";
+import PartnersPage from "./screens/partners";
+import VolunteersPage from "./screens/volunteers";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/services" element={<ContactUs />} />
+        <Route path="/partners" element={<PartnersPage />} />
+        <Route path="/volunteers" element={<VolunteersPage />} />
       </Routes>
     </BrowserRouter>
   );
