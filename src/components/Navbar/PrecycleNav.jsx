@@ -23,14 +23,14 @@ export default function PrecycleNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto fw-bold">
-            <Nav.Link className="text-white" as={Link} to="/">
+            <Nav.Link className="text-white nav__link" as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link className="text-white" as={Link} to="/about">
+            <Nav.Link className="text-white nav__link" as={Link} to="/about">
               About
             </Nav.Link>
-            <Nav.Link className="text-white" as={Link} to="/services">
-              Services
+            <Nav.Link className="text-white nav__link_shop" href="https://precycle.d2l.ng" rel="noreferrer" target={"_blank"}>
+              Eco-Shop
             </Nav.Link>
           </Nav>
 

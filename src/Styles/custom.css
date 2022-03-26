@@ -140,3 +140,9 @@ body {
     margin-bottom: 10px;
   }
 }
+
+@media (max-width: 400px) {
+  .about_img { 
+    width: 200px !important;
+  }
+}

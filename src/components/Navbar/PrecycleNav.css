@@ -39,3 +39,9 @@
 .partnerBtn:hover {
   border: 1px solid transparent;
 }
+.nav__link:hover {
+  color: #01957d !important;
+}
+.nav__link_shop {
+  color: #01957d !important;
+}
