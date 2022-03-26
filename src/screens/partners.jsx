@@ -113,9 +113,11 @@ export default function Partners() {
               Partner with Us
             </Button>
           </a>
-          <Button variant="outline-primary" className="trainingBtn p-2 col-2 mb-5" size="md">
-            Make a donation
-          </Button>
+          <a href="https://paystack.com/pay/1ic4ec-4k8" target="_blank" rel="noreferrer">
+            <Button variant="outline-primary" className="trainingBtn p-2 col-2 mb-5" size="md">
+              Make a donation
+            </Button>
+          </a> 
         </Stack>
       </Stack>
     </HomeLayoutWrapper>
