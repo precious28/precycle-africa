@@ -8,7 +8,7 @@ import {
   Row,
   Stack,
 } from "react-bootstrap";
-import "../styles/custom.css";
+import "../Styles/custom.css";
 // images
 import Hero from "../Images/Hero.png";
 import Recycle1 from "../Images/Recycle1.png";

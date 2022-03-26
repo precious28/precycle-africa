@@ -21,7 +21,7 @@ export default function PrecycleNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto fw-bold">
-            <Nav.Link className="text-white" as={Link} to="home">
+            <Nav.Link className="text-white" as={Link} to="/">
               Home
             </Nav.Link>
             <Nav.Link className="text-white" as={Link} to="/about">
