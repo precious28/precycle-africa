@@ -9,7 +9,6 @@ import {
   Stack,
 } from "react-bootstrap";
 import "../Styles/custom.css";
-// images
 import Hero from "../Images/Hero.png";
 import Recycle1 from "../Images/Recycle1.png";
 import Recycle2 from "../Images/Recycle2.png";

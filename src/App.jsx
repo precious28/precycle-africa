@@ -9,9 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/services" element={<ContactUs />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/about" exact element={<AboutUs />} />
+        <Route path="/services" exact element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   );
