@@ -1,0 +1,46 @@
+.bg-divHeight {
+  color: #01957d;
+}
+
+.footerColor {
+  background-color: #f0a501;
+}
+.accentWhite {
+  color: #fefaf0;
+}
+.greyText {
+  color: #858786;
+}
+.customBackground {
+  background-color: #fefaf0;
+}
+.contactIcons img {
+  margin-right: 25px;
+}
+.custom-group {
+  position: relative;
+}
+.custom-group-text {
+  position: relative;
+  top: 33px;
+  left: 6px;
+}
+.custom-group-input {
+  width: 100%;
+}
+.form-control {
+  border: none;
+  padding: 10px 100px 10px 30px;
+}
+.custom-group Button {
+  position: absolute;
+  right: 6px;
+  top: 28px;
+  bottom: 10px;
+  background: #01957d;
+  border-radius: 5px;
+}
+.custom-group Button:hover {
+  background-color: #01957d;
+  opacity: 75%;
+}
