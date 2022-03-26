@@ -58,9 +58,11 @@ export default function VolunteersPage() {
               help us put an end to plastic waste in Africa.
             </div>
             <div className=" d-flex justify-content-center align-items-center mt-5 mb-5">
-              <Button className="partnerWithBtn p-2 col-2" size="md">
-                Learn more
-              </Button>
+              <a href="https://forms.gle/W1XFq7dRm2RM44Rv6" rel="noreferrer" target={"_blank"}>
+                <Button className="partnerWithBtn p-2 col-2" size="md">
+                  Learn more
+                </Button>
+              </a>
             </div>
           </Stack>
         </Container>

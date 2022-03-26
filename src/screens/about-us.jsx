@@ -9,7 +9,7 @@ import HomeLayoutWrapper from "../components/Layouts/HomeLayoutWrapper";
 export default function AboutUs() {
   return (
     <HomeLayoutWrapper>
-      <h1>About page</h1>
+      {/* <h1>About page</h1> */}
     </HomeLayoutWrapper>
   );
 }

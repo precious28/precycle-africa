@@ -14,9 +14,11 @@ export default function PrecycleNav() {
   return (
     <Navbar bg="mySecondary" expand="lg" style={{ zIndex: "1000" }}>
       <Container>
-        <Navbar.Brand href="#home">
-          <img src={Logo1} alt="Main Logo" />
-        </Navbar.Brand>
+        <Link to="/">
+          <Navbar.Brand>
+            <img src={Logo1} alt="Main Logo" />
+          </Navbar.Brand>
+        </Link>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -34,7 +36,7 @@ export default function PrecycleNav() {
 
           <Stack direction="horizontal" gap={5}>
             <Nav.Link className="text-white" as={Link} to="/partners">
-              <Button className="partnerBtn p-3 fw-bold" size="sm">
+              <Button variant="outline-primary" className="partnerBtn p-3 fw-bold" size="sm">
                 Partner with Us
               </Button>
             </Nav.Link>
@@ -42,6 +44,7 @@ export default function PrecycleNav() {
             <Button
               className="wasteBtn p-3 fw-bold"
               size="sm"
+              variant="outline-primary"
               onClick={() => setModalShow(true)}
             >
               Waste Pickup

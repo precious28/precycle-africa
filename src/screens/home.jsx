@@ -47,7 +47,7 @@ export default function Home() {
                     Help stop ocean plastic and improve the lives of collector
                     communities by aiding the recovery of ocean-bound plastic.
                   </Card.Text>
-                  <Button className="partnerBtn p-2 col-6" size="md">
+                  <Button variant="outline-primary" className="partnerBtn p-2 col-6" size="md">
                     Learn More
                   </Button>
                 </Col>
@@ -140,12 +140,14 @@ export default function Home() {
                     Help stop ocean plastic and improve the lives of collector
                     communities by aiding the recovery of ocean-bound plastic.
                   </div>
-                  <Button
-                    className="pickupBtn fw-bold  p-2 col-5 mt-2"
-                    size="sm"
-                  >
-                    Learn More
-                  </Button>
+                  <Link to="/partners">
+                    <Button
+                      className="pickupBtn fw-bold  p-2 col-5 mt-2"
+                      size="sm"
+                    >
+                      Learn More
+                    </Button>
+                  </Link>
                 </Stack>
               </Col>
             </Row>
@@ -169,12 +171,14 @@ export default function Home() {
                   Together we can create value out of your plastic waste and
                   recyle them into other useful and reusable products.
                 </div>
-                <Button
-                  className="pickupBtn fw-bold opacity-75 p-2 col-5 mt-2"
-                  size="sm"
-                >
-                  Waste Pickup
-                </Button>
+                <a href="https://forms.gle/HcPDRR93pGV3m6mR7" rel="noreferrer" target={"_blank"}>
+                  <Button
+                    className="pickupBtn fw-bold opacity-75 p-2 col-5 mt-2"
+                    size="sm"
+                  >
+                    Waste Pickup
+                  </Button>
+                </a>
               </Stack>
             </Col>
 

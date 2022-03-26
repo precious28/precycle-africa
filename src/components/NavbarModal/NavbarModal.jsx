@@ -35,36 +35,42 @@ function NavbarModal(props) {
               medium:
             </div>
             <Stack gap={4}>
-              <Stack
-                direction="horizontal"
-                gap={2}
-                className="align-items-center justify-content-center"
-              >
-                <img src={Form} className="icons" alt="" />
-                <div className="iconDecoration primaryText fw-bold">
-                  Fill a Form
-                </div>
-              </Stack>
-              <Stack
-                direction="horizontal"
-                gap={2}
-                className="align-items-center justify-content-center"
-              >
-                <img src={Phone} className="icons" alt="" />
-                <div className="iconDecoration primaryText  fw-bold">
-                  Speak to a Representative
-                </div>
-              </Stack>
-              <Stack
-                direction="horizontal"
-                gap={2}
-                className="align-items-center justify-content-center"
-              >
-                <img src={Whatsapp} className="icons" alt="" />
-                <div className="iconDecoration primaryText fw-bold">
-                  Chat on Whatsapp
-                </div>
-              </Stack>
+              <a href="https://forms.gle/HcPDRR93pGV3m6mR7" rel="noreferrer" target={"_blank"}>
+                <Stack
+                  direction="horizontal"
+                  gap={2}
+                  className="align-items-center justify-content-center"
+                >
+                  <img src={Form} className="icons" alt="" />
+                  <div className="iconDecoration primaryText fw-bold">
+                    Fill a Form
+                  </div>
+                </Stack>
+              </a>
+              <a href="tel:+2348053939963">
+                <Stack
+                  direction="horizontal"
+                  gap={2}
+                  className="align-items-center justify-content-center"
+                >
+                  <img src={Phone} className="icons" alt="" />
+                  <div className="iconDecoration primaryText  fw-bold">
+                    Speak to a Representative
+                  </div>
+                </Stack>
+              </a>
+              <a href="https://wa.me/message/3NIVNLUMH3JOA1" rel="noreferrer" target={"_blank"}>
+                <Stack
+                  direction="horizontal"
+                  gap={2}
+                  className="align-items-center justify-content-center"
+                >
+                  <img src={Whatsapp} className="icons" alt="" />
+                  <div className="iconDecoration primaryText fw-bold">
+                    Chat on Whatsapp
+                  </div>
+                </Stack>
+              </a>
             </Stack>
           </Container>
         </Stack>

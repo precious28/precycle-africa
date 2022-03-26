@@ -21,7 +21,7 @@
     margin-left: 0;
   }
 }
-.wasteBtn {
+.wasteBtn, .wasteBtn:active {
   background-color: #01957d;
   border: none;
   color: #fefaf0;
@@ -31,7 +31,7 @@
   background-color: #fefef0;
   color: #01957d;
 }
-.partnerBtn {
+.partnerBtn, .partnerBtn:active {
   background-color: #fefaf0;
   color: #01957d;
   border: 1px solid #01957d;
