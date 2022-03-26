@@ -1,5 +1,5 @@
 import HomeLayoutWrapper from "../components/Layouts/HomeLayoutWrapper";
-import { Nav, Container, Card, Stack, Button, Col, Row } from "react-bootstrap";
+import { Container, Card, Stack, Button, Col } from "react-bootstrap";
 
 //   images
 import Volunteer from "../Images/volunteerImage.png";

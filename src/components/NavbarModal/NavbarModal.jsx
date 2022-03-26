@@ -6,7 +6,6 @@ import Calendar from "../NavbarModal/modalImages/Calendar.png";
 import Form from "../NavbarModal/modalImages/Form.png";
 import Phone from "../NavbarModal/modalImages/Phone.png";
 import Whatsapp from "../NavbarModal/modalImages/Whatsapp.png";
-import closeModal from "../NavbarModal/modalImages/closeModal.png";
 
 function NavbarModal(props) {
   return (
