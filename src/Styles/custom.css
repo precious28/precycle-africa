@@ -5,6 +5,7 @@ body {
 .accentWhite {
   color: #fefaf0;
 }
+
 .myPrimary {
   background-color: #01957d;
 }
@@ -45,9 +46,12 @@ body {
   color: #fefaf0;
   margin-left: 25px;
 }
-.pickupBtn:hover {
-  background-color: #01957d !important;
-  opacity: 70%;
+.partnerWithBtn {
+  background-color: #01957d;
+  display: inline-block;
+  width: 200px;
+  border: none;
+  color: #fefaf0;
 }
 .trainingBtn {
   background-color: #fefaf0 !important;
@@ -55,6 +59,11 @@ body {
   color: #01957d !important;
   width: 200px !important;
 }
+.pickupBtn:hover {
+  background-color: #01957d !important;
+  opacity: 70%;
+}
+
 .trainingBtn:hover {
   background-color: #01957d !important;
   color: #fefaf0 !important;
@@ -80,7 +89,49 @@ body {
   height: auto;
   max-width: 100%;
 }
+.partnersImage {
+  height: 75%;
+  max-width: 100%;
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .sdgImage {
   height: auto;
   max-width: 100%;
+}
+.volunteerText {
+  max-width: 43%;
+}
+.toRightgradient {
+  background: linear-gradient(to right, #fefaf0 53%, white 47%);
+}
+.toLeftgradient {
+  background: linear-gradient(to left, #fefaf0 53%, white 47%);
+}
+
+@media (max-device-width: 1024px) {
+  .toRightgradient {
+    background: linear-gradient(to right, #fefaf0 50%, white 50%);
+  }
+  .toLeftgradient {
+    background: linear-gradient(to left, #fefaf0 50%, white 50%);
+  }
+}
+@media (max-width: 768px) {
+  .volunteerText {
+    max-width: 100%;
+  }
+  .toRightgradient {
+    background: linear-gradient(to bottom, #fefaf0 62%, white 38%);
+  }
+  .toLeftgradient {
+    background: linear-gradient(to top, #fefaf0 62%, white 38%);
+  }
+  .partnersImage {
+    height: auto;
+    margin-bottom: 10px;
+  }
 }
