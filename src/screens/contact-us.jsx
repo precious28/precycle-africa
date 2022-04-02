@@ -4,7 +4,7 @@ export default function ContactUs() {
   return (
     <HomeLayoutWrapper>
       <h1>
-        Contact Us Page
+        {/* Contact Us Page */}
       </h1>
     </HomeLayoutWrapper>
   )

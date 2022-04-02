@@ -28,7 +28,7 @@ body {
 .shadow.cardStyles.card {
   border-radius: 20px;
 }
-.partnerBtn {
+.partnerBtn, .partnerBtn:active {
   background-color: #fefaf0;
   color: #01957d;
   border: 1px solid #01957d;
@@ -50,8 +50,13 @@ body {
   background-color: #01957d;
   display: inline-block;
   width: 200px;
-  border: none;
+  border: 1px solid #01957d;
   color: #fefaf0;
+}
+.partnerWithBtn:hover {
+  background-color: #ffffff;
+  color: #01957d;
+  border: 1px solid #01957d;
 }
 .trainingBtn {
   background-color: #fefaf0 !important;
@@ -133,5 +138,11 @@ body {
   .partnersImage {
     height: auto;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about_img { 
+    width: 200px !important;
   }
 }

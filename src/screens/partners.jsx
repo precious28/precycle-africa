@@ -108,12 +108,16 @@ export default function Partners() {
           gap={3}
           className=" d-flex justify-content-center align-items-center"
         >
-          <Button className="partnerWithBtn p-2 col-2" size="md">
-            Partner with Us
-          </Button>
-          <Button className="trainingBtn p-2 col-2 mb-5" size="md">
-            Make a donation
-          </Button>
+          <a href="https://forms.gle/mkgUj8DqxtMgBQNaA" target="_blank" rel="noreferrer">
+            <Button variant="outline-primary" className="partnerWithBtn p-2 col-2" size="md">
+              Partner with Us
+            </Button>
+          </a>
+          <a href="https://paystack.com/pay/1ic4ec-4k8" target="_blank" rel="noreferrer">
+            <Button variant="outline-primary" className="trainingBtn p-2 col-2 mb-5" size="md">
+              Make a donation
+            </Button>
+          </a> 
         </Stack>
       </Stack>
     </HomeLayoutWrapper>
